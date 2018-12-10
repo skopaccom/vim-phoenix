@@ -88,7 +88,7 @@ endif
 hi Normal                     guifg=#CCCCCC guibg=#191919 gui=NONE      ctermfg=250
 hi NonText                    guifg=#6A6A6A guibg=NONE    gui=NONE      ctermfg=008
 hi Comment                    guifg=#555555 guibg=NONE    gui=NONE      ctermfg=243
-hi Constant                   guifg=#40BDFF guibg=NONE    gui=NONE      ctermfg=039
+hi Constant                   guifg=#40BDFF guibg=NONE    gui=NONE      ctermfg=039 cterm=bold
 hi Directory                  guifg=#40BDFF guibg=NONE    gui=NONE      ctermfg=039
 hi Identifier                 guifg=#787878 guibg=NONE    gui=NONE      ctermfg=246
 hi PreProc                    guifg=#787878 guibg=NONE    gui=NONE      ctermfg=246
@@ -147,7 +147,7 @@ if s:accent == "green"
 endif
 
 if s:accent == "yellow"
-  hi Constant                 guifg=#DEDD5A guibg=NONE    gui=NONE      ctermfg=226
+  hi Constant                 guifg=#DEDD4A guibg=NONE    gui=NONE      ctermfg=226
   hi Directory                guifg=#DEDD5A guibg=NONE    gui=NONE      ctermfg=226
   hi Type                     guifg=#C3BA4D guibg=NONE    gui=NONE      ctermfg=226
   hi SpecialKey               guifg=#DEDD5A guibg=NONE    gui=NONE      ctermfg=226
@@ -210,7 +210,7 @@ hi IncSearch                  guifg=#EFEFEF guibg=#64B2DB gui=NONE      ctermfg=
 hi MatchParen                 guifg=#191919 guibg=#40BDFF gui=NONE      ctermfg=235   ctermbg=039
 hi Search                     guifg=#EFEFEF guibg=#40BDFF gui=NONE      ctermfg=255   ctermbg=039
 hi Error                      guifg=#FF3D23 guibg=NONE    gui=bold      ctermfg=009   ctermbg=NONE
-hi Todo                       guifg=#DEDD5A guibg=NONE    gui=bold      ctermfg=226   ctermbg=NONE
+hi Todo                       guifg=#DEDD5A guibg=NONE    gui=bold      ctermfg=244   ctermbg=NONE    cterm=underline
 
 if s:background == "eighties"
   hi CursorLine               guifg=NONE    guibg=#111111 gui=NONE      ctermfg=NONE  ctermbg=008     cterm=NONE
@@ -351,10 +351,10 @@ hi GitGutterDeleteDefault     guifg=#FF3D23 guibg=NONE    gui=NONE      ctermfg=
 " Spelling
 " ----------------------------------------------------------------------------
 
-hi SpellBad                   guisp=#FF3D23 guibg=NONE    gui=undercurl  ctermfg=255  ctermbg=009   cterm=underline
-hi SpellCap                   guisp=#87BF19 guibg=NONE    gui=undercurl  ctermfg=255  ctermbg=002   cterm=underline
-hi SpellLocal                 guisp=#DEDD5A guibg=NONE    gui=undercurl  ctermfg=255  ctermbg=226   cterm=underline
-hi SpellRare                  guisp=#DEDD5A guibg=NONE    gui=undercurl  ctermfg=255  ctermbg=226   cterm=underline
+hi SpellBad                   guisp=#FF3D23 guibg=NONE    gui=undercurl  ctermfg=000  ctermbg=001   cterm=underline
+hi SpellCap                   guisp=#87BF19 guibg=NONE    gui=undercurl  ctermfg=000  ctermbg=001   cterm=underline
+hi SpellLocal                 guisp=#DEDD5A guibg=NONE    gui=undercurl  ctermfg=000  ctermbg=001   cterm=underline
+hi SpellRare                  guisp=#DEDD5A guibg=NONE    gui=undercurl  ctermfg=000  ctermbg=001   cterm=underline
 
 
 
